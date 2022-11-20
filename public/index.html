@@ -174,6 +174,16 @@
       .fa-reddit:hover {
         color: #bf3400;
       }
+      #popout-icon {
+        position: absolute;
+        right: 1em;
+        color: black;
+        border: 0px;
+        background: #ffffff;
+      }
+      #popout-icon:hover {
+        color: grey;
+      }
       #panel-header {
         padding-bottom: 2em;
       }
@@ -245,9 +255,12 @@
         <h2>
           &#9432; About
         </h2>
+        <button id="popout-icon" onclick="window.location.href='https://declanrjb.github.io/congress-finance/';">
+          <i class="fa fa-external-link" style="font-size:24px"></i>
+        </button>
       </div>
         <p>
-          This chart represents campaign donations of $1000 or more to US candidates for congressional office in the 2022 midterms. 
+          This chart represents campaign donations of $1000 or more to candidates for congressional office in the 2022 US midterms. 
         </p>
         <p>
           The source data was crawled from <a href="https://opensecrets.org">opensecrets.org</a>, an independent nonprofit whose mission is to "track the flow of money in American politics and provide the data and analysis to strengthen democracy."
@@ -256,7 +269,7 @@
           <b>Click</b> any node to focus its local network, and click again to dismiss. <b>Double click</b> any node to open its <a href="https://opensecrets.org">opensecrets.org</a> page.
         </p>
         <p>
-          This web application was developed by Declan Bradley using <a href="https://reactjs.org/">react</a> and <a href="https://www.sigmajs.org/">sigmajs</a>, and incorporates sample code from both libraries.
+          This web application was developed by Declan Bradley using <a href="https://reactjs.org/">react</a>, <a href="https://www.sigmajs.org/">sigmajs</a>, and <a href="https://materializecss.com/">materialize</a> and incorporates example code from all three libraries.
         </p>
         <p>
           The source code for this project is available on <a href="https://github.com/declanrjb/congress-finance">GitHub</a>.
