@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.js": "/congress-finance/static/js/main.bd533885.chunk.js",
+    "main.js.map": "/congress-finance/static/js/main.bd533885.chunk.js.map",
+    "runtime-main.js": "/congress-finance/static/js/runtime-main.60c2caf0.js",
+    "runtime-main.js.map": "/congress-finance/static/js/runtime-main.60c2caf0.js.map",
+    "static/js/2.da7d10c1.chunk.js": "/congress-finance/static/js/2.da7d10c1.chunk.js",
+    "static/js/2.da7d10c1.chunk.js.map": "/congress-finance/static/js/2.da7d10c1.chunk.js.map",
+    "index.html": "/congress-finance/index.html"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.60c2caf0.js",
+    "static/js/2.da7d10c1.chunk.js",
+    "static/js/main.bd533885.chunk.js"
+  ]
+}
